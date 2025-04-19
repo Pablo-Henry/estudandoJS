@@ -23,7 +23,7 @@ console.log(estudanteReprovou(10, 2));
 
 //ARROW FUNCTION
 
-const exibeFaltas = ( faltas ) =>{
+const exibeFaltas = ( faltas ) => {
     return faltas;
 };
 
