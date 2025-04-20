@@ -6,8 +6,8 @@ const lista = [alunos, notas]
 function exibeNomeNota( aluno ) {
    // SE O ALUNO INF0RMADO ESTIVER INCLUIDO NA LISTA [ TAL ]
     if (lista[0].includes(aluno)) {
-        const [ alunos, notas ] = lista  //DESESTRUTURAÇÃO DO ARRAY DE ARRAYS, SERVER PARA NÃO TER QUE USAR A POSICÃO DA LISTA COMO PARAMETRO UTILIZANOD O COLCHETE
-        // PROCURA PELO NOME DO ALUNO NA LISTA E RETORNO A SUA POSIÇÃO NA LISTA / INDICE
+        const [ alunos, notas ] = lista  //DESESTRUTURAÇÃO DO ARRAY DE ARRAYS, SERVE PARA NÃO TER QUE USAR A POSICÃO DA LISTA COMO PARAMETRO UTILIZANOD O COLCHETE
+        // PROCURA PELO NOME DO ALUNO NA LISTA E RETORNA A SUA POSIÇÃO NA LISTA / INDICE
         const indice = alunos.indexOf(aluno);
         //RETORNA A NOTA DO ALUNO DE ACORDO COM A CONSTANTE INDICE QUE USOU A FUNÇÃO INDEXOF
         const mediaAluno = notas[indice];
