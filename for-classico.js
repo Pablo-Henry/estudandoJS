@@ -30,7 +30,7 @@ const media = somaNotas / notas.length
 console.log(`Média das notas: ${media.toFixed(2)}`) //toFixed = LIMITA O NUMERO DE CASAS DECIMAIS A SEREM EXIBIDAS
 
 
-//CONDIÇÕ QUE ADICIONA TODOS OS NÚMEROS PARES DE 0 A 100 | PARA FAZER COM QUE EXIBA OS NÚMEROS IMPARES BASTA TROCAS O VALOR DE I DE 0 PARA 1
+//CONDIÇÃO QUE ADICIONA TODOS OS NÚMEROS PARES DE 0 A 100 | PARA FAZER COM QUE EXIBA OS NÚMEROS IMPARES BASTA TROCAS O VALOR DE I DE 0 PARA 1
 const numerosPares = []
 
 for ( let i = 0; i <= 100; i += 2 ) {
@@ -39,7 +39,7 @@ for ( let i = 0; i <= 100; i += 2 ) {
 
 console.log(numerosPares)
 
-//CONDIÇÕ QUE ADICIONA TODOS OS NÚMEROS IMPARES DE 0 A 100 
+//CONDIÇÃO QUE ADICIONA TODOS OS NÚMEROS IMPARES DE 0 A 100 
 
 const numerosImpares = []
 
