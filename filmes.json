@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pecadores",
+        "diretor": "Ryan Coogler",
+        "anoLancamento": 2025
+    },
+
+    {
+        "id": 2,
+        "titulo": "Shrek",
+        "diretor": "Andrew Adamson e Vicky Jenson",
+        "anoLancamento": 2001
+    },
+
+    {
+        "id": 3,
+        "titulo": "Spider-Man: Into the Spider-Verse",
+        "diretor": "Bob Persichetti, Peter Ramsey e Rodney Rothman.",
+        "anoLancamento": 2018
+    },
+
+    {
+        "id": 4,
+        "titulo": "Halloween: A Noite do Terror",
+        "diretor": "John Carpenter",
+        "anoLancamento": 1978
+    },
+
+    {
+        "id": 5,
+        "titulo": "The Croods",
+        "diretor": "Chris Sanders e Kirk DeMicco.",
+        "anoLancamento": 2013
+    }
+
+
+]
