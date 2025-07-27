@@ -52,3 +52,15 @@ objPersonag2.nome = "Saruman"
 //QUANDO TENTAMOS MUDAR O NOME DO PERSONAGEM 2 O NOME DO PRIMEIRO TAMBÉM IRÁ MUDAR, POIS O PERSONAGEM DOIS ESTA PASSANDO APENAS A REFERÊNCIA DO PRIMEIRO PERSONAGEM
 console.log(objPersonagem.nome) //Saruman
 console.log(objPersonag2.nome) //Saruman
+
+///////////////////////////////////////
+
+
+//OUTRA FORMA DE COPIAR UM OBJETO EM JS
+//CÓPIA PROFUNDA UTILIZANDO O JSON.stringfy e o JSON.parse
+
+const objetoOriginal = { chave: 'valor' };
+const copiaProfunda = JSON.parse(JSON.stringify(objetoOriginal));
+
+copiaProfunda.chave = 'novoValor';
+console.log(objetoOriginal.chave); // Saída: valor
